@@ -11,7 +11,7 @@ The preferred way to install this extension is through
 Either run
 
 ```bash
-$ composer require ddinchev/yii-jui-tooltip-widget
+$ composer require ddinchev/yii-jui-tooltip-widget dev-master
 ```
 
 or add
@@ -25,7 +25,6 @@ to the `require` section of your `composer.json` file.
 Now you can use the widget like this:
 
 ```php
-Yii::require('application.vendor.ddinchev.yii-jui-tooltip-widget.EJuiTooltip');
 $this->widget('EJuiTooltip', array('selector' => '.tooltip'));
 ```
 

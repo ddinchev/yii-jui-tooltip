@@ -11,10 +11,5 @@
   "support": {
     "issues": "https://github.com/ddinchev/yii-jui-tooltip-widget/issues?state=open",
     "source": "https://github.com/ddinchev/yii-jui-tooltip-widget"
-  },
-  "autoload": {
-    "psr-4": {
-      "ddinchev\\yii-jui-tooltip-widget\\": "src"
-    }
   }
 }
