@@ -1,5 +1,5 @@
 {
-  "name": "ddinchev/yii-jui-tooltip-widget",
+  "name": "ddinchev/yii-jui-tooltip",
   "description": "jQuery UI Tooltip Widget for Yii 1.1",
   "authors": [
     {
@@ -9,7 +9,7 @@
   ],
   "license": "Apache License 2.0",
   "support": {
-    "issues": "https://github.com/ddinchev/yii-jui-tooltip-widget/issues?state=open",
-    "source": "https://github.com/ddinchev/yii-jui-tooltip-widget"
+    "issues": "https://github.com/ddinchev/yii-jui-tooltip/issues?state=open",
+    "source": "https://github.com/ddinchev/yii-jui-tooltip"
   }
 }

@@ -46,7 +46,7 @@ class EJuiTooltip extends CJuiWidget
     public function run()
     {
         Yii::app()->clientScript->registerScript(__CLASS__ . $this->selector,
-            $this->getJavascriptString($this->selector, $this->options)
+            self::getJavascriptString($this->selector, $this->options)
         );
     }
 
@@ -55,7 +55,7 @@ class EJuiTooltip extends CJuiWidget
      * @param array $options
      * @return string
      */
-    public function getJavascriptString($selector, array $options = [])
+    public static function getJavascriptString($selector, array $options = [])
     {
         if (!isset($options['content'])) {
             $options['content'] = 'js: function() { return $(this).prop("title"); }';
@@ -70,8 +70,8 @@ class EJuiTooltip extends CJuiWidget
      * @param array $options
      * @return CJavaScriptExpression
      */
-    public function getJavascriptFunction($selector, array $options = [])
+    public static function getJavascriptFunction($selector, array $options = [])
     {
-        return new CJavaScriptExpression(sprintf('function () { %s }', $this->getJavascriptString($selector, $options)));
+        return new CJavaScriptExpression(sprintf('function () { %s }', self::getJavascriptString($selector, $options)));
     }
 }
