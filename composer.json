@@ -11,5 +11,10 @@
   "support": {
     "issues": "https://github.com/ddinchev/yii-jui-tooltip/issues?state=open",
     "source": "https://github.com/ddinchev/yii-jui-tooltip"
+  },
+  "autoload": {
+    "psr-0": {
+      "EJuiTooltip": ""
+    }
   }
 }
