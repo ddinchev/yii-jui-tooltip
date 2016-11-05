@@ -3,16 +3,10 @@
 Yii::import('zii.widgets.jui.CJuiWidget');
 
 /**
- * EJuiTooltio class file.
+ * EJuiTooltip encapsulates jQuery UI Tooltip plugin.
  *
- * EJuiTooltio displays a tooltip widget.
- *
- * EJuiTooltio encapsulates the {@link http://jqueryui.com/demos/tooltip/ JUI Tooltip}
- * plugin.
- *
- * To use this widget, you may insert the following code in a view:
- * <pre>
- * $this->widget('application.extensions.juitooltip.EJuiTooltio', array(
+ * Example usage:
+ * $this->widget('EJuiTooltip', array(
  *     // elements selector, by default their title attribute will be used as content
  *     'selector' => '.tooltip',
  *     // additional javascript options for the tooltip plugin
@@ -21,16 +15,10 @@ Yii::import('zii.widgets.jui.CJuiWidget');
  *     ),
  * ));
  *
- * </pre>
- *
- * By configuring the {@link options} property, you may specify the options
+ * By configuring the options property, you may specify the options
  * that need to be passed to the JUI Tooltip plugin. Please refer to
- * the {@link http://jqueryui.com/demos/tooltip/ JUI Draggable} documentation
+ * the official {@link http://jqueryui.com/demos/tooltip/} documentation
  * for possible options (name-value pairs).
- *
- *
- * @author Dimitar Dinchev <dinchev.dimitar@gmail.com>
- * @link http://www.yiiframework.com/
  */
 class EJuiTooltip extends CJuiWidget
 {
